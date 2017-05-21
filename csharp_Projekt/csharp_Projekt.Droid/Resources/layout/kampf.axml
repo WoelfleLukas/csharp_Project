@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/tableLayout1">
+    <TableRow
+        p1:id="@+id/tableRow1">
+        <TableLayout
+            p1:id="@+id/tableLayoutAnsicht"
+            p1:layout_height="458dp"
+            p1:layout_width="386dp">
+            <TableRow>
+                <ImageView
+                    p1:layout_column="1"
+                    p1:id="@+id/ImageViewGegner"
+                    p1:layout_height="229dp"
+                    p1:layout_width="193dp" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    p1:layout_column="0"
+                    p1:id="@+id/ImageViewEigenesMonster"
+                    p1:layout_height="229dp"
+                    p1:layout_width="193dp" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow2">
+        <TableLayout
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/tableLayoutMenu">
+            <TableRow>
+                <Button
+                    p1:text="Monbster wechseln"
+                    p1:layout_column="0"
+                    p1:id="@+id/buttonMonster"
+                    p1:layout_width="193dp" />
+                <Button
+                    p1:text="Flucht"
+                    p1:layout_column="1"
+                    p1:id="@+id/buttonFlucht"
+                    p1:layout_width="193dp" />
+            </TableRow>
+        <!--    <TableRow>
+                <Button
+                    p1:text="Angriff"
+                    p1:layout_column="0"
+                    p1:id="@+id/buttonAngriff"
+                    p1:layout_width="match_parent" />
+           <Button
+                    p1:text="Button"
+                    p1:layout_column="1"
+                    p1:id="@+id/button4" />   </TableRow>-->
+        </TableLayout>
+    </TableRow>
+    <TableRow>
+        <Button
+            p1:text="Angriff"
+            p1:layout_column="0"
+            p1:id="@+id/buttonAngriff"
+            p1:layout_width="match_parent" />
+    </TableRow>
+</TableLayout>
